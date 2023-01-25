@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+    <ModInfo>
+        <Name value="Mod: 300s zombie body resident"/>
+        <Description value="This modlet extends zombie body remaining duration to 300s."/>
+        <Author value="Zero Fanker"/>
+        <Version value="1.0.0"/>
+    </ModInfo>
+</xml>
