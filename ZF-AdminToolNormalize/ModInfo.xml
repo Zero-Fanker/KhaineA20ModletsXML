@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+    <ModInfo>
+        <Name value="Mod: Admin tool normalize"/>
+        <Description value="Normalize all admin items, make them balanced"/>
+        <Author value="Zero Fanker"/>
+        <Version value="1.0.0"/>
+    </ModInfo>
+</xml>
