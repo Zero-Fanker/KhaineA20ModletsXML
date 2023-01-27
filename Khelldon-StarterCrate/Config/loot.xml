@@ -20,6 +20,9 @@ Khelldon - Let's add the random starter loot and the container info to call to i
 	<item group="groupArmorT1" count="4"/>
 	<item group="airdropMedicine" count="2"/>
 	<item group="cannedfood" count="2"/>
+	<item name="gunHandgunT1Pistol" count="1"/>
+	<item name="ammo9mmBulletBall" count="10"/>
+	<item name="ammo762mmBulletAP" count="5"/>
 </lootgroup>
 <!-- The loot id we need to call to get our loot group. 
 This may certainly cause conflicts with other mods. -->
