@@ -1,5 +1,7 @@
 <configs>
     <set xpath="/items/item[@name='gunHandgunPistolAdmin']/effect_group/passive_effect[@name='MaxRange'][@value='200']/@value">100</set>
     <set xpath="/items/item[@name='gunHandgunPistolAdmin']/effect_group/passive_effect[@name='EntityDamage'][@value='5000']/@value">40</set>
-    <set xpath="/items/item[@name='gunHandgunPistolAdmin']/effect_group/passive_effect[@name='BurstRoundCount'][@value='1000']/@value">1</set>
+    <set xpath="/items/item[@name='gunHandgunPistolAdmin']/effect_group/passive_effect[@name='BurstRoundCount'][@value='-.75']/@value">-15</set>
+    <set xpath="/items/item[@name='rocketBootsAdmin']/effect_group/passive_effect[@name='StaminaLoss'][@value='1000']/@value">1</set>
+    <set xpath="/items/item[@name='toughGuyShirtAdmin']/effect_group/passive_effect[@name='HealthMax'][@value='19900']/@value">900</set>
 </configs>
