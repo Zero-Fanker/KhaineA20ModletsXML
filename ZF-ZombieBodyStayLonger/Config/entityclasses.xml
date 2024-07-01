@@ -1,4 +1,4 @@
 <configs>
 	<!-- Edit player entity to increase inventory size -->
-	<set xpath="/entity_classes/entity_class[@name='zombieTemplateMale']/property[@name='TimeStayAfterDeath'][@value='30']/@value">300</set>
+	<set xpath="/entity_classes/entity_class[@name='zombieTemplateMale']/property[@name='TimeStayAfterDeath'][@value='30']/@value">600</set>
 </configs>
