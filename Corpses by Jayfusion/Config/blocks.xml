@@ -1,0 +1,127 @@
+<Configs>
+
+<remove xpath="/blocks/block[@name='goreBlockHumanCorpse']/property[@name='Place']"/>
+
+<append xpath="/blocks/block[@name='goreBlockHumanCorpse']">
+	<property name="OnlySimpleRotations" value="true"/>
+	<property name="PlaceAsRandomRotation" value="true"/>
+	<drop event="Harvest" name="resourceAnimalFat" count="1,2" tag="butcherHarvest"/>
+</append>
+
+
+<append xpath="/blocks">	
+<block name="goreBlockHumanCorpseRandomInvisibleMale">
+	<property name="Material" value="Morganic"/>
+	<property name="MaxDamage" value="80"/>
+	<property name="Shape" value="Invisible"/>
+	<property name="Model" value="@:Entities/Zombies/Zombies/corpse1Prefab.prefab"/>
+	<property name="CustomIcon" value="goreBlockHumanCorpse"/>
+	<property name="CustomIconTint" value="ff8080"/>
+	<property name="CreativeMode" value="Dev"/>
+	<property name="Class" value="PlantGrowing" />
+	<property name="IsReplaceRandom" value="false"/>
+	<property name="IsTerrainDecoration" value="true"/>
+	<property name="ImposterExclude" value="true"/>
+	<property name="ImposterDontBlock" value="true"/>
+	<property name="OnlySimpleRotations" value="true"/>
+	<property name="PlaceAsRandomRotation" value="true"/>
+	<drop event="Fall" name="goreBlockHumanCorpseRandomInvisibleMale" count="1" prob="1" stick_chance="1"/>
+	<property name="PlantGrowing.Next" value="goreBlockHumanCorpseRandomMale"/>
+	<property name="PlantGrowing.GrowthRate" value="0.00001"/>
+	<property name="PlantGrowing.FertileLevel" value="0"/>
+	<property name="PlantGrowing.IsRandom" value="false"/>
+	<property name="PlantGrowing.LightLevelGrow" value="0"/>
+</block>
+
+<block name="goreBlockHumanCorpseRandomInvisibleFemale">
+	<property name="Material" value="Morganic"/>
+	<property name="MaxDamage" value="80"/>
+	<property name="Shape" value="Invisible"/>
+	<property name="Model" value="@:Entities/Zombies/Zombies/corpse1Prefab.prefab"/>
+	<property name="CustomIcon" value="goreBlockHumanCorpse"/>
+	<property name="CustomIconTint" value="ff8080"/>
+	<property name="CreativeMode" value="Dev"/>
+	<property name="Class" value="PlantGrowing" />
+	<property name="IsReplaceRandom" value="false"/>
+	<property name="Collide" value="melee,bullet,arrow,rocket"/>
+	<property name="IsTerrainDecoration" value="true"/>
+	<property name="FallDamage" value=".9"/>
+	<property name="ImposterExclude" value="true"/>
+	<property name="ImposterDontBlock" value="true"/>
+	<drop event="Harvest" name="foodRottingFlesh" count="1" tag="allHarvest" tool_category="Butcher"/>
+	<drop event="Harvest" name="foodRottingFlesh" count="1,2" tag="butcherHarvest"/>
+	<drop event="Harvest" name="resourcePotassiumNitratePowder" count="4,8" tag="butcherHarvest"/>
+	<drop event="Harvest" name="resourceAnimalFat" count="1,2" tag="butcherHarvest"/>
+	<drop event="Destroy" name="resourceBone" count="5,9" tag="butcherHarvest"/>
+	<property name="FilterTags" value="MC_building,SC_decor"/>
+	<property name="DisplayInfo" value="Description"/>
+	<property name="DescriptionKey" value="goreBlockHumanCorpseRandomDesc"/>
+	<property name="FilterTags" value="MC_building,SC_decor"/>
+	<property name="OnlySimpleRotations" value="true"/>
+	<property name="PlaceAsRandomRotation" value="true"/>
+	<drop event="Fall" name="goreBlockHumanCorpseRandomInvisibleFemale" count="1" prob="1" stick_chance="1"/>
+	<property name="PlantGrowing.Next" value="goreBlockHumanCorpseRandomFemale"/>
+	<property name="PlantGrowing.GrowthRate" value="0.00001"/>
+	<property name="PlantGrowing.FertileLevel" value="0"/>
+	<property name="PlantGrowing.IsRandom" value="false"/>
+	<property name="PlantGrowing.LightLevelGrow" value="0"/>
+</block>
+
+<block name="goreBlockHumanCorpseRandomMale">
+	<property name="Material" value="Morganic"/>
+	<property name="MaxDamage" value="80"/>
+	<property name="Shape" value="ModelEntity"/>
+	<property name="Model" value="@:Entities/Zombies/Zombies/corpse1Prefab.prefab"/>
+	<property name="CustomIcon" value="goreBlockHumanCorpse"/>
+	<property name="CustomIconTint" value="ff8080"/>
+	<property name="CreativeMode" value="Dev"/>
+	<property name="IsReplaceRandom" value="true"/>
+	<property name="Collide" value="melee,bullet,arrow,rocket"/>
+	<property name="IsTerrainDecoration" value="true"/>
+	<property name="FallDamage" value=".9"/>
+	<property name="ImposterExclude" value="true"/>
+	<property name="ImposterDontBlock" value="true"/>
+	<drop event="Harvest" name="foodRottingFlesh" count="1" tag="allHarvest" tool_category="Butcher"/>
+	<drop event="Harvest" name="foodRottingFlesh" count="1,2" tag="butcherHarvest"/>
+	<drop event="Harvest" name="resourcePotassiumNitratePowder" count="4,8" tag="butcherHarvest"/>
+	<drop event="Harvest" name="resourceAnimalFat" count="1,2" tag="butcherHarvest"/>
+	<drop event="Destroy" name="resourceBone" count="5,9" tag="butcherHarvest"/>
+	<property name="FilterTags" value="MC_building,SC_decor"/>
+	<property name="DisplayInfo" value="Description"/>
+	<property name="DescriptionKey" value="goreBlockHumanCorpseRandomDesc"/>
+	<property name="FilterTags" value="MC_building,SC_decor"/>
+	<property name="OnlySimpleRotations" value="true"/>
+	<property name="PlaceAsRandomRotation" value="true"/>
+	<drop event="Fall" name="goreBlockHumanCorpseRandomMale" count="1" prob="1" stick_chance="1"/>
+</block>
+
+<block name="goreBlockHumanCorpseRandomFemale">
+	<property name="Material" value="Morganic"/>
+	<property name="MaxDamage" value="80"/>
+	<property name="Shape" value="ModelEntity"/>
+	<property name="Model" value="@:Entities/Zombies/Zombies/corpse1Prefab.prefab"/>
+	<property name="CustomIcon" value="goreBlockHumanCorpse"/>
+	<property name="CustomIconTint" value="ff8080"/>
+	<property name="CreativeMode" value="Dev"/>
+	<property name="IsReplaceRandom" value="true"/>
+	<property name="Collide" value="melee,bullet,arrow,rocket"/>
+	<property name="IsTerrainDecoration" value="true"/>
+	<property name="FallDamage" value=".9"/>
+	<property name="ImposterExclude" value="true"/>
+	<property name="ImposterDontBlock" value="true"/>
+	<drop event="Harvest" name="foodRottingFlesh" count="1" tag="allHarvest" tool_category="Butcher"/>
+	<drop event="Harvest" name="foodRottingFlesh" count="1,2" tag="butcherHarvest"/>
+	<drop event="Harvest" name="resourcePotassiumNitratePowder" count="4,8" tag="butcherHarvest"/>
+	<drop event="Harvest" name="resourceAnimalFat" count="1,2" tag="butcherHarvest"/>
+	<drop event="Destroy" name="resourceBone" count="5,9" tag="butcherHarvest"/>
+	<property name="FilterTags" value="MC_building,SC_decor"/>
+	<property name="DisplayInfo" value="Description"/>
+	<property name="DescriptionKey" value="goreBlockHumanCorpseRandomDesc"/>
+	<property name="FilterTags" value="MC_building,SC_decor"/>
+	<property name="OnlySimpleRotations" value="true"/>
+	<property name="PlaceAsRandomRotation" value="true"/>
+	<drop event="Fall" name="goreBlockHumanCorpseRandomFemale" count="1" prob="1" stick_chance="1"/>
+</block>
+</append>
+
+</Configs>
