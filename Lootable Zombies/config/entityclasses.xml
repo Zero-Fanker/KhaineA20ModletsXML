@@ -1,0 +1,626 @@
+<configs>
+	<set xpath="/entity_classes/entity_class[@name='zombieTemplateMale']/property[@name='TimeStayAfterDeath']/@value">400</set>
+	
+		
+<!-- *** ZOMBIE_ARLENE -->
+	<append xpath="/entity_classes/entity_class[contains(@name,'zombieArlene')]">
+		<property name="LootListOnDeath" value="zombieArlene"/>
+		<property name="DeadBodyHitPoints" value="3000"/> 
+		<property name="CorpseBlock" value="goreBlockHumanCorpse"/><property name="CorpseBlockChance" value="1"/>
+	</append>
+	
+	<append xpath="/entity_classes/entity_class[contains(@name,'zombieArleneFeral')]">
+		<property name="LootListOnDeath" value="zombieArleneFeral"/>
+		<property name="DeadBodyHitPoints" value="3000"/>
+		<property name="CorpseBlock" value="goreBlockHumanCorpse"/><property name="CorpseBlockChance" value="1"/>		
+	</append>
+	
+	<append xpath="/entity_classes/entity_class[@name='zombieArleneRadiated']">
+		<property name="LootListOnDeath" value="zombieArleneRadiated"/>
+		<property name="DeadBodyHitPoints" value="3000"/>
+		<property name="CorpseBlock" value="goreBlockHumanCorpse"/><property name="CorpseBlockChance" value="1"/>		
+	</append>
+	
+<!-- *** ZOMBIE_MARLENE -->
+	<append xpath="/entity_classes/entity_class[@name='zombieMarlene']">
+		<property name="LootListOnDeath" value="zombieMarlene"/>
+		<property name="DeadBodyHitPoints" value="3000"/>
+		<property name="CorpseBlock" value="goreBlockHumanCorpse"/><property name="CorpseBlockChance" value="1"/>
+	</append>
+	
+	<append xpath="/entity_classes/entity_class[@name='zombieMarleneFeral']">
+		<property name="LootListOnDeath" value="zombieMarleneFeral"/>
+		<property name="DeadBodyHitPoints" value="3000"/> 
+		<property name="CorpseBlock" value="goreBlockHumanCorpse"/><property name="CorpseBlockChance" value="1"/>
+	</append>
+	
+	<append xpath="/entity_classes/entity_class[@name='zombieMarleneRadiated']">
+		<property name="LootListOnDeath" value="zombieMarleneRadiated"/>
+		<property name="DeadBodyHitPoints" value="3000"/> 
+		<property name="CorpseBlock" value="goreBlockHumanCorpse"/><property name="CorpseBlockChance" value="1"/>
+	</append>
+	
+<!-- *** ZOMBIE_PARTY_GIRL -->
+	<append xpath="/entity_classes/entity_class[@name='zombiePartyGirl']">
+		<property name="LootListOnDeath" value="zombiePartyGirl"/>
+		<property name="DeadBodyHitPoints" value="3000"/> 
+		<property name="CorpseBlock" value="goreBlockHumanCorpse"/><property name="CorpseBlockChance" value="1"/>
+	</append>
+	
+	<append xpath="/entity_classes/entity_class[@name='zombiePartyGirlFeral']">
+		<property name="LootListOnDeath" value="zombiePartyGirlFeral"/>
+		<property name="DeadBodyHitPoints" value="3000"/> 
+		<property name="CorpseBlock" value="goreBlockHumanCorpse"/><property name="CorpseBlockChance" value="1"/>
+	</append>
+	
+	<append xpath="/entity_classes/entity_class[@name='zombiePartyGirlRadiated']">
+		<property name="LootListOnDeath" value="zombiePartyGirlRadiated"/>
+		<property name="DeadBodyHitPoints" value="3000"/> 
+		<property name="CorpseBlock" value="goreBlockHumanCorpse"/><property name="CorpseBlockChance" value="1"/>
+	</append>
+	
+<!-- *** ZOMBIE_NURSE -->
+	<append xpath="/entity_classes/entity_class[@name='zombieNurse']">
+		<property name="LootListOnDeath" value="zombieNurse"/>
+		<property name="DeadBodyHitPoints" value="3000"/> 
+		<property name="CorpseBlock" value="goreBlockHumanCorpse"/><property name="CorpseBlockChance" value="1"/>
+	</append>
+	
+	<append xpath="/entity_classes/entity_class[@name='zombieNurseFeral']">
+		<property name="LootListOnDeath" value="zombieNurseFeral"/>
+		<property name="DeadBodyHitPoints" value="3000"/> 
+		<property name="CorpseBlock" value="goreBlockHumanCorpse"/><property name="CorpseBlockChance" value="1"/>
+	</append>
+	
+	<append xpath="/entity_classes/entity_class[@name='zombieNurseRadiated']">
+		<property name="LootListOnDeath" value="zombieNurseRadiated"/>
+		<property name="DeadBodyHitPoints" value="3000"/> 
+		<property name="CorpseBlock" value="goreBlockHumanCorpse"/><property name="CorpseBlockChance" value="1"/>
+	</append>
+	
+<!-- *** ZOMBIE_JOE -->
+	<append xpath="/entity_classes/entity_class[@name='zombieJoe']">
+		<property name="LootListOnDeath" value="zombieJoe"/>
+		<property name="DeadBodyHitPoints" value="3000"/>
+		<property name="CorpseBlock" value="goreBlockHumanCorpse1"/><property name="CorpseBlockChance" value="1"/>		
+	</append>
+	
+	<append xpath="/entity_classes/entity_class[@name='zombieJoeFeral']">
+		<property name="LootListOnDeath" value="zombieJoeFeral"/>
+		<property name="DeadBodyHitPoints" value="3000"/> 
+		<property name="CorpseBlock" value="goreBlockHumanCorpse2"/><property name="CorpseBlockChance" value="1"/>
+	</append>
+	
+	<append xpath="/entity_classes/entity_class[@name='zombieJoeRadiated']">
+		<property name="LootListOnDeath" value="zombieJoeRadiated"/>
+		<property name="DeadBodyHitPoints" value="3000"/> 
+		<property name="CorpseBlock" value="goreBlockHumanCorpse1"/><property name="CorpseBlockChance" value="1"/>
+	</append>
+	
+<!-- *** ZOMBIE_STEVE -->
+	<append xpath="/entity_classes/entity_class[@name='zombieSteve']">
+		<property name="LootListOnDeath" value="zombieSteve"/>
+		<property name="DeadBodyHitPoints" value="3000"/>
+		<property name="CorpseBlock" value="goreBlockHumanCorpse2"/><property name="CorpseBlockChance" value="1"/>		
+	</append>
+	
+	<append xpath="/entity_classes/entity_class[@name='zombieSteveFeral']">
+		<property name="LootListOnDeath" value="zombieSteveFeral"/>
+		<property name="DeadBodyHitPoints" value="3000"/> 
+		<property name="CorpseBlock" value="goreBlockHumanCorpse2"/><property name="CorpseBlockChance" value="1"/>
+	</append>
+	
+	<append xpath="/entity_classes/entity_class[@name='zombieSteveRadiated']">
+		<property name="LootListOnDeath" value="zombieSteveRadiated"/>
+		<property name="DeadBodyHitPoints" value="3000"/> 
+		<property name="CorpseBlock" value="goreBlockHumanCorpse1"/><property name="CorpseBlockChance" value="1"/>
+	</append>
+	
+<!-- *** ZOMBIE_TOM_CLARK-->
+	<append xpath="/entity_classes/entity_class[@name='zombieTomClark']">
+		<property name="LootListOnDeath" value="zombieTomClark"/>
+		<property name="DeadBodyHitPoints" value="3000"/> 
+		<property name="CorpseBlock" value="goreBlockHumanCorpse2"/><property name="CorpseBlockChance" value="1"/>
+	</append>
+	
+	<append xpath="/entity_classes/entity_class[@name='zombieTomClarkFeral']">
+		<property name="LootListOnDeath" value="zombieTomClarkFeral"/>
+		<property name="DeadBodyHitPoints" value="3000"/> 
+		<property name="CorpseBlock" value="goreBlockHumanCorpse1"/><property name="CorpseBlockChance" value="1"/>
+	</append>
+	
+	<append xpath="/entity_classes/entity_class[@name='zombieTomClarkRadiated']">
+		<property name="LootListOnDeath" value="zombieTomClarkRadiated"/>
+		<property name="DeadBodyHitPoints" value="3000"/> 
+		<property name="CorpseBlock" value="goreBlockHumanCorpse2"/><property name="CorpseBlockChance" value="1"/>
+	</append>
+	
+<!-- *** ZOMBIE_BUSINESSMAN -->
+	<append xpath="/entity_classes/entity_class[@name='zombieBusinessMan']">
+		<property name="LootListOnDeath" value="zombieBusinessMan"/>
+		<property name="DeadBodyHitPoints" value="3000"/> 
+		<property name="CorpseBlock" value="goreBlockHumanCorpse1"/><property name="CorpseBlockChance" value="1"/>
+	</append>
+	
+	<append xpath="/entity_classes/entity_class[@name='zombieBusinessManFeral']">
+		<property name="LootListOnDeath" value="zombieBusinessManFeral"/>
+		<property name="DeadBodyHitPoints" value="3000"/> 
+		<property name="CorpseBlock" value="goreBlockHumanCorpse2"/><property name="CorpseBlockChance" value="1"/>
+	</append>
+	
+	<append xpath="/entity_classes/entity_class[@name='zombieBusinessManRadiated']">
+		<property name="LootListOnDeath" value="zombieBusinessManRadiated"/>
+		<property name="DeadBodyHitPoints" value="3000"/> 
+		<property name="CorpseBlock" value="goreBlockHumanCorpse1"/><property name="CorpseBlockChance" value="1"/>
+	</append>
+	
+<!-- *** ZOMBIE_BURNT-->
+	<append xpath="/entity_classes/entity_class[@name='zombieBurnt']">
+		<property name="LootListOnDeath" value="zombieBurnt"/>
+		<property name="DeadBodyHitPoints" value="3000"/> 
+		<property name="CorpseBlock" value="goreBlockHumanBones"/><property name="CorpseBlockChance" value="1"/>
+	</append>
+	
+	<append xpath="/entity_classes/entity_class[@name='zombieBurntFeral']">
+		<property name="LootListOnDeath" value="zombieBurntFeral"/>
+		<property name="DeadBodyHitPoints" value="3000"/> 
+		<property name="CorpseBlock" value="goreBlockHumanBones"/><property name="CorpseBlockChance" value="1"/>
+	</append>
+	
+	<append xpath="/entity_classes/entity_class[@name='zombieBurntRadiated']">
+		<property name="LootListOnDeath" value="zombieBurntRadiated"/>
+		<property name="DeadBodyHitPoints" value="3000"/> 
+		<property name="CorpseBlock" value="goreBlockHumanBones"/><property name="CorpseBlockChance" value="1"/>
+	</append>
+	
+<!-- *** ZOMBIE_SPIDER -->
+	<append xpath="/entity_classes/entity_class[@name='zombieSpider']">
+		<property name="LootListOnDeath" value="zombieSpider"/>
+		<property name="DeadBodyHitPoints" value="3000"/> 
+		<property name="CorpseBlock" value="goreBlockHumanBones"/><property name="CorpseBlockChance" value="1"/>
+	</append>
+	
+	<append xpath="/entity_classes/entity_class[@name='zombieSpiderFeral']">
+		<property name="LootListOnDeath" value="zombieSpiderFeral"/>
+		<property name="DeadBodyHitPoints" value="3000"/> 
+		<property name="CorpseBlock" value="goreBlockHumanBones"/><property name="CorpseBlockChance" value="1"/>
+	</append>
+	
+	<append xpath="/entity_classes/entity_class[@name='zombieSpiderRadiated']">
+		<property name="LootListOnDeath" value="zombieSpiderRadiated"/>
+		<property name="DeadBodyHitPoints" value="3000"/> 
+		<property name="CorpseBlock" value="goreBlockHumanBones"/><property name="CorpseBlockChance" value="1"/>
+	</append>
+	
+<!-- *** ZOMBIE_BOE -->
+	<append xpath="/entity_classes/entity_class[@name='zombieBoe']">
+		<property name="LootListOnDeath" value="zombieBoe"/>
+		<property name="DeadBodyHitPoints" value="3000"/> 
+		<property name="CorpseBlock" value="goreBlockHumanCorpse2"/><property name="CorpseBlockChance" value="1"/>
+	</append>
+	
+	<append xpath="/entity_classes/entity_class[@name='zombieBoeFeral']">
+		<property name="LootListOnDeath" value="zombieBoeFeral"/>
+		<property name="DeadBodyHitPoints" value="3000"/> 
+		<property name="CorpseBlock" value="goreBlockHumanCorpse1"/><property name="CorpseBlockChance" value="1"/>
+	</append>
+	
+	<append xpath="/entity_classes/entity_class[@name='zombieBoeRadiated']">
+		<property name="LootListOnDeath" value="zombieBoeRadiated"/>
+		<property name="DeadBodyHitPoints" value="3000"/> 
+		<property name="CorpseBlock" value="goreBlockHumanCorpse2"/><property name="CorpseBlockChance" value="1"/>
+	</append>
+	
+<!-- *** ZOMBIE_HAZMAT -->
+	<append xpath="/entity_classes/entity_class[@name='zombieMaleHazmat']">
+		<property name="LootListOnDeath" value="zombieMaleHazmat"/>
+		<property name="DeadBodyHitPoints" value="3000"/> 
+		<property name="CorpseBlock" value="goreBlockHumanBones"/><property name="CorpseBlockChance" value="1"/>
+	</append>
+	
+	<append xpath="/entity_classes/entity_class[@name='zombieMaleHazmatFeral']">
+		<property name="LootListOnDeath" value="zombieMaleHazmatFeral"/>
+		<property name="DeadBodyHitPoints" value="3000"/> 
+		<property name="CorpseBlock" value="goreBlockHumanBones"/><property name="CorpseBlockChance" value="1"/>
+	</append>
+	
+	<append xpath="/entity_classes/entity_class[@name='zombieMaleHazmatRadiated']">
+		<property name="LootListOnDeath" value="zombieMaleHazmatRadiated"/>
+		<property name="DeadBodyHitPoints" value="3000"/> 
+		<property name="CorpseBlock" value="goreBlockHumanBones"/><property name="CorpseBlockChance" value="1"/>
+	</append>
+	
+<!-- *** ZOMBIE_JANITOR -->
+	<append xpath="/entity_classes/entity_class[@name='zombieJanitor']">
+		<property name="LootListOnDeath" value="zombieJanitor"/>
+		<property name="DeadBodyHitPoints" value="3000"/> 
+		<property name="CorpseBlock" value="goreBlockHumanCorpse1"/><property name="CorpseBlockChance" value="1"/>
+	</append>
+	
+	<append xpath="/entity_classes/entity_class[@name='zombieJanitorFeral']">
+		<property name="LootListOnDeath" value="zombieJanitorFeral"/>
+		<property name="DeadBodyHitPoints" value="3000"/> 
+		<property name="CorpseBlock" value="goreBlockHumanCorpse2"/><property name="CorpseBlockChance" value="1"/>
+	</append>
+	
+	<append xpath="/entity_classes/entity_class[@name='zombieJanitorRadiated']">
+		<property name="LootListOnDeath" value="zombieJanitorRadiated"/>
+		<property name="DeadBodyHitPoints" value="3000"/> 
+		<property name="CorpseBlock" value="goreBlockHumanCorpse1"/><property name="CorpseBlockChance" value="1"/>
+	</append>
+	
+<!-- *** ZOMBIE_INMATE -->
+	<append xpath="/entity_classes/entity_class[@name='zombieInmate']">
+		<property name="LootListOnDeath" value="zombieInmate"/>
+		<property name="DeadBodyHitPoints" value="3000"/> 
+		<property name="CorpseBlock" value="goreBlockHumanCorpse2"/><property name="CorpseBlockChance" value="1"/>
+	</append>
+	
+	<append xpath="/entity_classes/entity_class[@name='zombieInmateFeral']">
+		<property name="LootListOnDeath" value="zombieInmateFeral"/>
+		<property name="DeadBodyHitPoints" value="3000"/> 
+		<property name="CorpseBlock" value="goreBlockHumanCorpse2"/><property name="CorpseBlockChance" value="1"/>
+	</append>
+	
+	<append xpath="/entity_classes/entity_class[@name='zombieInmateRadiated']">
+		<property name="LootListOnDeath" value="zombieInmateRadiated"/>
+		<property name="DeadBodyHitPoints" value="3000"/> 
+		<property name="CorpseBlock" value="goreBlockHumanCorpse2"/><property name="CorpseBlockChance" value="1"/>
+	</append>
+	
+<!-- *** ZOMBIE_MOE -->
+	<append xpath="/entity_classes/entity_class[@name='zombieMoe']">
+		<property name="LootListOnDeath" value="zombieMoe"/>
+		<property name="DeadBodyHitPoints" value="3000"/> 
+		<property name="CorpseBlock" value="goreBlockHumanCorpse2"/><property name="CorpseBlockChance" value="1"/>
+	</append>
+	
+	<append xpath="/entity_classes/entity_class[@name='zombieMoeFeral']">
+		<property name="LootListOnDeath" value="zombieMoeFeral"/>
+		<property name="DeadBodyHitPoints" value="3000"/> 
+		<property name="CorpseBlock" value="goreBlockHumanCorpse1"/><property name="CorpseBlockChance" value="1"/>
+	</append>
+	
+	<append xpath="/entity_classes/entity_class[@name='zombieMoeRadiated']">
+		<property name="LootListOnDeath" value="zombieMoeRadiated"/>
+		<property name="DeadBodyHitPoints" value="3000"/> 
+		<property name="CorpseBlock" value="goreBlockHumanCorpse2"/><property name="CorpseBlockChance" value="1"/>
+	</append>
+	
+<!-- *** ZOMBIE_LAB -->
+	<append xpath="/entity_classes/entity_class[@name='zombieLab']">
+		<property name="LootListOnDeath" value="zombieLab"/>
+		<property name="DeadBodyHitPoints" value="3000"/> 
+		<property name="CorpseBlock" value="goreBlockHumanCorpse"/><property name="CorpseBlockChance" value="1"/>
+	</append>
+	
+	<append xpath="/entity_classes/entity_class[@name='zombieLabFeral']">
+		<property name="LootListOnDeath" value="zombieLabFeral"/>
+		<property name="DeadBodyHitPoints" value="3000"/> 
+		<property name="CorpseBlock" value="goreBlockHumanCorpse"/><property name="CorpseBlockChance" value="1"/>
+	</append>
+	
+	<append xpath="/entity_classes/entity_class[@name='zombieLabRadiated']">
+		<property name="LootListOnDeath" value="zombieLabRadiated"/>
+		<property name="DeadBodyHitPoints" value="3000"/> 
+		<property name="CorpseBlock" value="goreBlockHumanCorpse"/><property name="CorpseBlockChance" value="1"/>
+	</append>
+	
+<!-- *** ZOMBIE_DARLENE -->
+	<append xpath="/entity_classes/entity_class[@name='zombieDarlene']">
+		<property name="LootListOnDeath" value="zombieDarlene"/>
+		<property name="DeadBodyHitPoints" value="3000"/> 
+		<property name="CorpseBlock" value="goreBlockHumanCorpse"/><property name="CorpseBlockChance" value="1"/>
+	</append>
+	
+	<append xpath="/entity_classes/entity_class[@name='zombieDarleneFeral']">
+		<property name="LootListOnDeath" value="zombieDarleneFeral"/>
+		<property name="DeadBodyHitPoints" value="3000"/> 
+		<property name="CorpseBlock" value="goreBlockHumanCorpse"/><property name="CorpseBlockChance" value="1"/>
+	</append>
+	
+	<append xpath="/entity_classes/entity_class[@name='zombieDarleneRadiated']">
+		<property name="LootListOnDeath" value="zombieDarleneRadiated"/>
+		<property name="DeadBodyHitPoints" value="3000"/> 
+		<property name="CorpseBlock" value="goreBlockHumanCorpse"/><property name="CorpseBlockChance" value="1"/>
+	</append>
+	
+<!-- *** ZOMBIE_YO -->
+	<append xpath="/entity_classes/entity_class[@name='zombieYo']">
+		<property name="LootListOnDeath" value="zombieYo"/>
+		<property name="DeadBodyHitPoints" value="3000"/> 
+		<property name="CorpseBlock" value="goreBlockHumanCorpse1"/><property name="CorpseBlockChance" value="1"/>
+	</append>
+	
+	<append xpath="/entity_classes/entity_class[@name='zombieYoFeral']">
+		<property name="LootListOnDeath" value="zombieYoFeral"/>
+		<property name="DeadBodyHitPoints" value="3000"/> 
+		<property name="CorpseBlock" value="goreBlockHumanCorpse2"/><property name="CorpseBlockChance" value="1"/>
+	</append>
+	
+	<append xpath="/entity_classes/entity_class[@name='zombieYoRadiated']">
+		<property name="LootListOnDeath" value="zombieYoRadiated"/>
+		<property name="DeadBodyHitPoints" value="3000"/> 
+		<property name="CorpseBlock" value="goreBlockHumanCorpse1"/><property name="CorpseBlockChance" value="1"/>
+	</append>
+	
+<!-- *** ZOMBIE_UTILITY_WORKER -->
+	<append xpath="/entity_classes/entity_class[@name='zombieUtilityWorker']">
+		<property name="LootListOnDeath" value="zombieUtilityWorker"/>
+		<property name="DeadBodyHitPoints" value="3000"/> 
+		<property name="CorpseBlock" value="goreBlockHumanCorpse2"/><property name="CorpseBlockChance" value="1"/>
+	</append>
+	
+	<append xpath="/entity_classes/entity_class[@name='zombieUtilityWorkerFeral']">
+		<property name="LootListOnDeath" value="zombieUtilityWorkerFeral"/>
+		<property name="DeadBodyHitPoints" value="3000"/> 
+		<property name="CorpseBlock" value="goreBlockHumanCorpse1"/><property name="CorpseBlockChance" value="1"/>
+	</append>
+	
+	<append xpath="/entity_classes/entity_class[@name='zombieUtilityWorkerRadiated']">
+		<property name="LootListOnDeath" value="zombieUtilityWorkerRadiated"/>
+		<property name="DeadBodyHitPoints" value="3000"/> 
+		<property name="CorpseBlock" value="goreBlockHumanCorpse2"/><property name="CorpseBlockChance" value="1"/>
+	</append>
+	
+<!-- *** ZOMBIE_BIKER -->
+	<append xpath="/entity_classes/entity_class[@name='zombieBiker']">
+		<property name="LootListOnDeath" value="zombieBiker"/>
+		<property name="DeadBodyHitPoints" value="3000"/> 
+		<property name="CorpseBlock" value="goreBlockHumanCorpse1"/><property name="CorpseBlockChance" value="1"/>
+	</append>
+	
+	<append xpath="/entity_classes/entity_class[@name='zombieBikerFeral']">
+		<property name="LootListOnDeath" value="zombieBikerFeral"/>
+		<property name="DeadBodyHitPoints" value="3000"/> 
+		<property name="CorpseBlock" value="goreBlockHumanCorpse2"/><property name="CorpseBlockChance" value="1"/>
+	</append>
+	
+	<append xpath="/entity_classes/entity_class[@name='zombieBikerRadiated']">
+		<property name="LootListOnDeath" value="zombieBikerRadiated"/>
+		<property name="DeadBodyHitPoints" value="3000"/> 
+		<property name="CorpseBlock" value="goreBlockHumanCorpse1"/><property name="CorpseBlockChance" value="1"/>
+	</append>
+	
+<!-- *** ZOMBIE_LUMBERJACK -->
+	<append xpath="/entity_classes/entity_class[@name='zombieLumberjack']">
+		<property name="LootListOnDeath" value="zombieLumberjack"/>
+		<property name="DeadBodyHitPoints" value="3000"/> 
+		<property name="CorpseBlock" value="goreBlockHumanCorpse2"/><property name="CorpseBlockChance" value="1"/>
+	</append>
+	
+	<append xpath="/entity_classes/entity_class[@name='zombieLumberjackFeral']">
+		<property name="LootListOnDeath" value="zombieLumberjackFeral"/>
+		<property name="DeadBodyHitPoints" value="3000"/> 
+		<property name="CorpseBlock" value="goreBlockHumanCorpse1"/><property name="CorpseBlockChance" value="1"/>
+	</append>
+	
+	<append xpath="/entity_classes/entity_class[@name='zombieLumberjackRadiated']">
+		<property name="LootListOnDeath" value="zombieLumberjackRadiated"/>
+		<property name="DeadBodyHitPoints" value="3000"/> 
+		<property name="CorpseBlock" value="goreBlockHumanCorpse2"/><property name="CorpseBlockChance" value="1"/>
+	</append>
+	
+<!-- *** ZOMBIE_FEMALE_FAT -->
+	<append xpath="/entity_classes/entity_class[@name='zombieFemaleFat']">
+		<property name="LootListOnDeath" value="zombieFemaleFat"/>
+		<property name="DeadBodyHitPoints" value="3000"/> 
+		<property name="CorpseBlock" value="goreBlockHumanCorpse"/><property name="CorpseBlockChance" value="1"/>
+	</append>
+	
+	<append xpath="/entity_classes/entity_class[@name='zombieFemaleFatFeral']">
+		<property name="LootListOnDeath" value="zombieFemaleFatFeral"/>
+		<property name="DeadBodyHitPoints" value="3000"/> 
+		<property name="CorpseBlock" value="goreBlockHumanCorpse"/><property name="CorpseBlockChance" value="1"/>
+	</append>
+	
+	<append xpath="/entity_classes/entity_class[@name='zombieFemaleFatRadiated']">
+		<property name="LootListOnDeath" value="zombieFemaleFatRadiated"/>
+		<property name="DeadBodyHitPoints" value="3000"/> 
+		<property name="CorpseBlock" value="goreBlockHumanCorpse"/><property name="CorpseBlockChance" value="1"/>
+	</append>
+	
+<!-- *** ZOMBIE_FAT_HAWAIIAN -->
+	<append xpath="/entity_classes/entity_class[@name='zombieFatHawaiian']">
+		<property name="LootListOnDeath" value="zombieFatHawaiian"/>
+		<property name="DeadBodyHitPoints" value="3000"/> 
+		<property name="CorpseBlock" value="goreBlockHumanCorpse1"/><property name="CorpseBlockChance" value="1"/>
+	</append>
+	
+	<append xpath="/entity_classes/entity_class[@name='zombieFatHawaiianFeral']">
+		<property name="LootListOnDeath" value="zombieFatHawaiianFeral"/>
+		<property name="DeadBodyHitPoints" value="3000"/> 
+		<property name="CorpseBlock" value="goreBlockHumanCorpse2"/><property name="CorpseBlockChance" value="1"/>
+	</append>
+	
+	<append xpath="/entity_classes/entity_class[@name='zombieFatHawaiianRadiated']">
+		<property name="LootListOnDeath" value="zombieFatHawaiianRadiated"/>
+		<property name="DeadBodyHitPoints" value="3000"/> 
+		<property name="CorpseBlock" value="goreBlockHumanCorpse1"/><property name="CorpseBlockChance" value="1"/>
+	</append>
+	
+<!-- *** ZOMBIE_BOWLER -->
+	<append xpath="/entity_classes/entity_class[@name='zombieBowler']">
+		<property name="LootListOnDeath" value="zombieBowler"/>
+		<property name="DeadBodyHitPoints" value="3000"/> 
+		<property name="CorpseBlock" value="goreBlockHumanCorpse1"/><property name="CorpseBlockChance" value="1"/>
+	</append>
+	
+	<append xpath="/entity_classes/entity_class[@name='zombieBowlerFeral']">
+		<property name="LootListOnDeath" value="zombieBowlerFeral"/>
+		<property name="DeadBodyHitPoints" value="3000"/> 
+		<property name="CorpseBlock" value="goreBlockHumanCorpse1"/><property name="CorpseBlockChance" value="1"/>
+	</append>
+	
+	<append xpath="/entity_classes/entity_class[@name='zombieBowlerRadiated']">
+		<property name="LootListOnDeath" value="zombieBowlerRadiated"/>
+		<property name="DeadBodyHitPoints" value="3000"/> 
+		<property name="CorpseBlock" value="goreBlockHumanCorpse1"/><property name="CorpseBlockChance" value="1"/>
+	</append>
+	
+<!-- *** ZOMBIE_FAT_COP -->
+	<append xpath="/entity_classes/entity_class[@name='zombieFatCop']">
+		<property name="LootListOnDeath" value="zombieFatCop"/>
+		<property name="DeadBodyHitPoints" value="3000"/>
+		<property name="CorpseBlock" value="goreBlockHumanCorpse1"/><property name="CorpseBlockChance" value="1"/>
+	</append>
+	
+	<append xpath="/entity_classes/entity_class[@name='zombieFatCopFeral']">
+		<property name="LootListOnDeath" value="zombieFatCopFeral"/>
+		<property name="DeadBodyHitPoints" value="3000"/>
+		<property name="CorpseBlock" value="goreBlockHumanCorpse2"/><property name="CorpseBlockChance" value="1"/>
+	</append>
+	
+	<append xpath="/entity_classes/entity_class[@name='zombieFatCopRadiated']">
+		<property name="LootListOnDeath" value="zombieFatCopRadiated"/>
+		<property name="DeadBodyHitPoints" value="3000"/>
+		<property name="CorpseBlock" value="goreBlockHumanCorpse1"/><property name="CorpseBlockChance" value="1"/>
+	</append>
+	
+<!-- *** ZOMBIE_SKATEBOARDER -->
+	<append xpath="/entity_classes/entity_class[@name='zombieSkateboarder']">
+		<property name="LootListOnDeath" value="zombieSkateboarder"/>
+		<property name="DeadBodyHitPoints" value="3000"/> 
+		<property name="CorpseBlock" value="goreBlockHumanCorpse2"/><property name="CorpseBlockChance" value="1"/>
+	</append>
+	
+	<append xpath="/entity_classes/entity_class[@name='zombieSkateboarderFeral']">
+		<property name="LootListOnDeath" value="zombieSkateboarderFeral"/>
+		<property name="DeadBodyHitPoints" value="3000"/> 
+		<property name="CorpseBlock" value="goreBlockHumanCorpse1"/><property name="CorpseBlockChance" value="1"/>
+	</append>
+	
+	<append xpath="/entity_classes/entity_class[@name='zombieSkateboarderRadiated']">
+		<property name="LootListOnDeath" value="zombieSkateboarderRadiated"/>
+		<property name="DeadBodyHitPoints" value="3000"/> 
+		<property name="CorpseBlock" value="goreBlockHumanCorpse2"/><property name="CorpseBlockChance" value="1"/>
+	</append>
+	
+<!-- *** ZOMBIE_SOLDIER -->
+	<append xpath="/entity_classes/entity_class[@name='zombieSoldier']">
+		<property name="LootListOnDeath" value="zombieSoldier"/>
+		<property name="DeadBodyHitPoints" value="3000"/> 
+		<property name="CorpseBlock" value="goreBlockHumanCorpse1"/><property name="CorpseBlockChance" value="1"/>
+	</append>
+	
+	<append xpath="/entity_classes/entity_class[@name='zombieSoldierFeral']">
+		<property name="LootListOnDeath" value="zombieSoldierFeral"/>
+		<property name="DeadBodyHitPoints" value="3000"/> 
+		<property name="CorpseBlock" value="goreBlockHumanCorpse2"/><property name="CorpseBlockChance" value="1"/>
+	</append>
+	
+	<append xpath="/entity_classes/entity_class[@name='zombieSoldierRadiated']">
+		<property name="LootListOnDeath" value="zombieSoldierRadiated"/>
+		<property name="DeadBodyHitPoints" value="3000"/> 
+		<property name="CorpseBlock" value="goreBlockHumanCorpse2"/><property name="CorpseBlockChance" value="1"/>
+	</append>
+	
+<!-- *** ZOMBIE_WIGHT_FERAL -->
+	<append xpath="/entity_classes/entity_class[@name='zombieWightFeral']">
+		<property name="LootListOnDeath" value="zombieWightFeral"/>
+		<property name="DeadBodyHitPoints" value="3000"/> 
+		<property name="CorpseBlock" value="goreBlockHumanBones"/><property name="CorpseBlockChance" value="1"/>
+	</append>
+	
+	<append xpath="/entity_classes/entity_class[@name='zombieWightRadiated']">
+		<property name="LootListOnDeath" value="zombieWightRadiated"/>
+		<property name="DeadBodyHitPoints" value="3000"/> 
+		<property name="CorpseBlock" value="goreBlockHumanBones"/><property name="CorpseBlockChance" value="1"/>
+	</append>
+	
+<!-- *** ZOMBIE_SCREAMER -->
+	<append xpath="/entity_classes/entity_class[@name='zombieScreamer']">
+		<property name="LootListOnDeath" value="zombieScreamer"/>
+		<property name="DeadBodyHitPoints" value="3000"/> 
+		<property name="CorpseBlock" value="goreBlockHumanCorpse"/><property name="CorpseBlockChance" value="1"/>
+	</append>
+	
+	<append xpath="/entity_classes/entity_class[@name='zombieScreamerFeral']">
+		<property name="LootListOnDeath" value="zombieScreamerFeral"/>
+		<property name="DeadBodyHitPoints" value="3000"/> 
+		<property name="CorpseBlock" value="goreBlockHumanCorpse"/><property name="CorpseBlockChance" value="1"/>
+	</append>
+	
+	<append xpath="/entity_classes/entity_class[@name='zombieScreamerRadiated']">
+		<property name="LootListOnDeath" value="zombieScreamerRadiated"/>
+		<property name="DeadBodyHitPoints" value="3000"/> 
+		<property name="CorpseBlock" value="goreBlockHumanCorpse"/><property name="CorpseBlockChance" value="1"/>
+	</append>
+	
+<!-- *** ZOMBIE_MUTATED -->
+	<append xpath="/entity_classes/entity_class[@name='zombieMutated']">
+		<property name="LootListOnDeath" value="zombieMutated"/>
+		<property name="DeadBodyHitPoints" value="3000"/> 
+		<property name="CorpseBlock" value="goreBlockHumanBones"/><property name="CorpseBlockChance" value="1"/>
+	</append>
+	
+	<append xpath="/entity_classes/entity_class[@name='zombieMutatedFeral']">
+		<property name="LootListOnDeath" value="zombieMutatedFeral"/>
+		<property name="DeadBodyHitPoints" value="3000"/> 
+		<property name="CorpseBlock" value="goreBlockHumanBones"/><property name="CorpseBlockChance" value="1"/>
+	</append>
+	
+	<append xpath="/entity_classes/entity_class[@name='zombieMutatedRadiated']">
+		<property name="LootListOnDeath" value="zombieMutatedRadiated"/>
+		<property name="DeadBodyHitPoints" value="3000"/> 
+		<property name="CorpseBlock" value="goreBlockHumanBones"/><property name="CorpseBlockChance" value="1"/>
+	</append>
+	
+<!-- *** ZOMBIE_DEMOLITION -->
+	<append xpath="/entity_classes/entity_class[@name='zombieDemolition']">
+		<property name="LootListOnDeath" value="zombieDemolition"/>
+		<property name="DeadBodyHitPoints" value="3000"/> 
+		<property name="CorpseBlock" value="goreBlockHumanBones"/><property name="CorpseBlockChance" value="1"/>
+	</append>
+	
+<!-- *** ZOMBIE_CRAWLER -->
+	<append xpath="/entity_classes/entity_class[@name='zombieSteveCrawler']">
+		<property name="LootListOnDeath" value="zombieSteveCrawler"/>
+		<property name="DeadBodyHitPoints" value="3000"/> 
+		<property name="CorpseBlock" value="goreHumanSkull"/><property name="CorpseBlockChance" value="1"/>
+	</append>
+	
+	<append xpath="/entity_classes/entity_class[@name='zombieSteveCrawlerFeral']">
+		<property name="LootListOnDeath" value="zombieSteveCrawlerFeral"/>
+		<property name="DeadBodyHitPoints" value="3000"/> 
+		<property name="CorpseBlock" value="goreHumanSkull"/><property name="CorpseBlockChance" value="1"/>
+	</append>
+	
+	
+<!--Animals-->
+
+	<append xpath="/entity_classes/entity_class[@name='animalTemplateTimid']" >
+		<property name="CorpseBlock" value="goreBlockAnimal"/><property name="CorpseBlockChance" value="1"/>
+	</append>
+
+	<append xpath="/entity_classes/entity_class[@name='animalRabbit']" >
+		<property name="CorpseBlock" value="air"/><property name="goreHumanSkull" value="1"/>
+	</append>
+
+	<append xpath="/entity_classes/entity_class[@name='animalChicken']" >
+		<property name="CorpseBlock" value="air"/><property name="goreHumanSkull" value="1"/>
+	</append>
+
+	<append xpath="/entity_classes/entity_class[@name='animalTemplateHostile']" >
+		<property name="CorpseBlock" value="goreBlockAnimal"/><property name="CorpseBlockChance" value="1"/>
+	</append>
+
+	<append xpath="/entity_classes/entity_class[@name='animalSnake']" >
+		<property name="CorpseBlock" value="air"/><property name="goreHumanSkull" value="1"/>
+	</append>
+
+	<append xpath="/entity_classes/entity_class[@name='animalZombieVulture']" >
+		<property name="CorpseBlock" value="air"/><property name="goreHumanSkull" value="1"/>
+	</append>
+
+	<append xpath="/entity_classes/entity_class[@name='animalZombieVultureRadiated']" >
+		<property name="CorpseBlock" value="goreBlockAnimal"/><property name="CorpseBlockChance" value="1"/>
+	</append>
+	
+	<set xpath="/entity_classes/entity_class[@name='animalTemplateHostile']/property[@name='TimeStayAfterDeath']/@value">350</set>
+
+	<set xpath="/entity_classes/entity_class[@name='animalTemplateTimid']/property[@name='TimeStayAfterDeath']/@value">350</set>
+	
+	
+	
+</configs>	
