@@ -7,7 +7,7 @@
 	<remove xpath="/windows/window[@name='windowToolbelt']/rect/rect[@pos='563,-77']"></remove>
 
 	<append xpath="/windows">
-		<window name="KHHUDLeftStatBars">
+		<window name="KHHUDLeftStatBars" anchor="LeftBottom">
 			<rect name="hud" pos="9,195" rows="2" cols="1" width="168" side="right">
 				<rect width="171" height="46" controller="HUDStatBar" stat_type="Stealth" visible="{statvisible}">
 					<sprite depth="1" name="border" color="0,0,0,150" height="46" type="sliced" />

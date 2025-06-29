@@ -4,6 +4,7 @@
 	<DisplayName value="Khaine's 3-slot Forge Input" />
 	<Description value="This modlet changes the forge to 3 slots for smelting." />
 	<Author value="KhaineGB" />
-	<Version value="1.0.0.1" />
+	<Version value="2.0.0.0" />
 	<Website value="" />
+	<SkipWithAntiCheat value="false" />
 </xml>
