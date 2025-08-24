@@ -1,0 +1,15 @@
+<AGF-Backpack84>
+
+
+	<conditional>
+		<if cond="game_version() &gt;= version(1,2,0) and game_version() &lt; version(1,2,2)">
+			<include filename="7d2dV2.1/XUi/controls.xml" />
+		</if>
+		<if cond="game_version() &gt;= version(1,2,2)">
+			<include filename="7d2dV2.2/XUi/controls.xml" />
+		</if>		
+	</conditional>			
+		
+		
+	
+</AGF-Backpack84>
